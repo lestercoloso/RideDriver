@@ -25677,3 +25677,30 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+.toggle .toast-wrapper {
+  width: 190px;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+page-home .scroll {
+  height: 100%;
+}
+
+page-home #map {
+  width: 100%;
+  height: 100%;
+}
+
+page-home [green] ion-icon {
+  color: green;
+}
+
+page-home [green] button {
+  background: white;
+}
+
+page-home .gmnoprint, page-home .gm-fullscreen-control {
+  display: none;
+}
